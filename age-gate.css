@@ -1,0 +1,54 @@
+#age-gate-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#age-gate-wrapper.ageUnknown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#age-gate-popup {
+    background-color: #c3cbc7;
+    color: #2f333c;
+    padding: 10rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#age-gate-popup img {
+    width: 300px;
+}
+
+#age-gate-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#age-gate-buttons a {
+    background-color: #d89e97;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 300px;
+    font-size: 15px;
+    color: #2f333c;
+}
+
+#age-gate-buttons a:first-child {
+    margin-right: 3rem;
+}
+
+#age-gate-buttons a:last-child {
+    background-color: #c3cbc7;
+    border: 1px solid #2f333c;
+}
